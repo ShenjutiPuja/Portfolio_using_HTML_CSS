@@ -1,0 +1,175 @@
+
+
+.wrapper{
+    height: 1200px;
+    width: 100%;
+    background-color: chocolate;
+}
+.header{
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+}
+.header .logo{
+    height: 500px;
+    width: 40%;
+    background-color: ghostwhite;
+    float: left;
+}
+.header .banner{
+    display: block;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+    background-color: salmon;
+    float: left;
+}
+.menu{
+    height:50px;
+    width: 100%;
+    background-color: gray;
+}
+.menu .logo{
+    height: 50px;
+    width: 5%;
+    background-color: black;
+    float: left;
+}
+.menu .banner{
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    float: left;
+}
+.menu .banner a{
+    display: block;
+    color: wheat;
+    text-align: left;
+    padding: 16px 4px;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+    width: 14%;
+    float: left;
+}
+.menu ul li a{
+    background-color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 16px 4px;
+    transition: background-color 2s; 
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 75px 75px 75px 75px; 
+}
+.content{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+}
+.bigfooter{
+    height:270px;
+    width: 100%;
+    background-color: black;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.imagerotation{
+    height: 100%;
+    width: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-twitter {
+  background: #ff5700;
+  color: white;
+}
+
+
+.big_footer{
+	max-width : 100%;
+	min-width: 50%;
+	min-height: 5%;
+	max-height : 25%;
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
+.bftr{
+	margin: auto;
+	max-width : 567px;
+	min-width: 100px;
+	max-height : 25%;
+	min-height: 5%;
+	padding: 10px;
+}
+.footer{
+	background: #3d3d3d;
+	width : 100%;
+	max-height : 50px;
+	min-height: 30px;
+	border-radius: 30px;
+}
+
+.footer h3{
+	color: white;
+	text-align: center;
+}
